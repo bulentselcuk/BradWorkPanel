@@ -1,0 +1,33 @@
+Git Komutlari
+
+Git repisitory kurulum
+
+Cursor class ile ayni yerde olmalı
+
+
+git config --global user.name "bulentselcuk"
+git config --global user.email "bulentselcuk@gmail.com"
+git init
+git add .
+git commit -m "yukleme basarili oldu"
+git remote add origin https://github.com/bulentselcuk/GitHubYeniProje.git
+git push -u origin master
+
+reopen .git
+===================
+Cakisma duzeltmek
+
+git pull
+baska biri ayni dosyayi editlediy ise uyari mesaji gelir.
+git add .
+git commit -m "komut yaz"
+git pull
+
+Cakisma goruldu uyarisi gelir...
+
+git resolve conflict menusune tikla
+click.merge
+git add .
+git commit -m "fixed"
+git push
+===================
